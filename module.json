@@ -1,0 +1,13 @@
+{
+    "id": "addfields",
+    "name": "Additional Fields",
+    "description": "Additional fields extension",
+    "keywords": [
+        "Additional fields"
+    ],
+    "humhub": {
+        "minVersion": "1.0"
+    },    
+    "screenshots": ["assets/screenshot-1.png", "assets/screenshot-2.png", "assets/screenshot-3.png"],
+    "version": "0.1"
+}
