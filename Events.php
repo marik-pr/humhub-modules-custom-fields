@@ -10,6 +10,8 @@ use yii\helpers\Url;
 class Events extends \yii\base\Object
 {
 
+    
+    
     public static function onSpaceAdminInit($event)
     {
         if ($event->sender->space !== null && $event->sender->space->isModuleEnabled('addfields') && $event->sender->space->isMember()) {
