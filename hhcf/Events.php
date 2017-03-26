@@ -17,7 +17,7 @@ class Events extends \yii\base\Object
         if ($event->sender->space !== null && $event->sender->space->isModuleEnabled('hhcf') && $event->sender->space->isMember()) {
             $event->sender->addItem(array(
                 'label' => Yii::t('HhcfModule.Space', 'Custom Fields'),
-                'url' => $event->sender->space->createUrl('/hhfc/space'),
+                'url' => $event->sender->space->createUrl('/hhcf/space'),
                 'sortOrder' => 300,
                 'isActive' => (Yii::$app->controller->id == 'space' && Yii::$app->controller->action->id == 'index'),
             ));
