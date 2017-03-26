@@ -1,9 +1,9 @@
 {
-    "id": "addfields",
-    "name": "Additional Fields",
-    "description": "Additional fields extension",
+    "id": "hhfc",
+    "name": "Custom Fields",
+    "description": "HumHub Custom Fields extension",
     "keywords": [
-        "Additional fields"
+        "Custom fields"
     ],
     "humhub": {
         "minVersion": "1.0"

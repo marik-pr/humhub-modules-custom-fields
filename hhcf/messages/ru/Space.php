@@ -7,7 +7,7 @@
  */
 
 return array (
-    'Additional fields' => 'Дополнительные поля',
-    'Adds additional fields to this space' => 'Добавить дополнительные поля в это пространство',
+    'Custom fields' => 'Дополнительные поля',
+    'Adds custom fields to this space' => 'Добавить дополнительные поля в это пространство',
     '<strong>Post...</strong>' => '<strong>Текст...</strong>',
 );

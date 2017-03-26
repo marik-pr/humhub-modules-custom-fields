@@ -1,5 +1,5 @@
 <?php
-namespace humhub\modules\addfields\controllers;
+namespace humhub\modules\hhfc\controllers;
 use Yii;
 use humhub\modules\space\modules\manage\components\Controller;
 use humhub\modules\space\modules\manage\models\DeleteForm;

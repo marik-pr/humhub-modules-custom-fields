@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\modules\addfields;
+namespace humhub\modules\hhfc;
 use Yii;
 use humhub\modules\space\models\Space;
 use humhub\modules\content\components\ContentContainerActiveRecord;
@@ -21,11 +21,11 @@ class Module extends ContentContainerModule
 
        public function getContentContainerName(ContentContainerActiveRecord $container)
     {
-        return Yii::t('AddfieldsModule.Space', 'Additional fields');
+        return Yii::t('HHFCModule.Space', 'Custom Fields');
     }
 
     public function getContentContainerDescription(ContentContainerActiveRecord $container)
     {
-        return Yii::t('AddfieldsModule.Space', 'Adds additional fields to this space');
+        return Yii::t('HHFC.Space', 'Adds custom fields to this space');
     }
 }
