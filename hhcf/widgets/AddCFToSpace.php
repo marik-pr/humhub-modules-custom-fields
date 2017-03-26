@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\modules\addfields\widgets;
+namespace humhub\modules\hhcf\widgets;
 
 use humhub\components\Widget;
 

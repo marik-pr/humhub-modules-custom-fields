@@ -20,7 +20,7 @@ use humhub\modules\space\modules\manage\widgets\DefaultMenu;
 
           ?>  
         <hr>
-        <?php echo Yii::t('AddfieldsModule.Space', '<strong>Post...</strong>'); ?>
+        <?php echo Yii::t('HhcfModule.Space', '<strong>Post...</strong>'); ?>
         <hr>
 
         <?php echo Html::submitButton(Yii::t('SpaceModule.views_admin_edit', 'Save'), array('class' => 'btn btn-primary', 'data-ui-loader' => '')); ?>
