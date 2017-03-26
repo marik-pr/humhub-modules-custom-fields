@@ -21,7 +21,7 @@ class AddfieldToSpace extends Widget
     
     public function run()
     {
-        return $this->render('AddfieldToSpace');
+        return $this->render('AddCFToSpace');
     }
 
 }
