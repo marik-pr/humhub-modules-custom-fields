@@ -20,4 +20,5 @@ class SpaceController extends \humhub\modules\space\modules\manage\controllers\D
     }
 }
 
+
 ?>
