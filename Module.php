@@ -5,6 +5,7 @@ use Yii;
 use humhub\modules\space\models\Space;
 use humhub\modules\content\components\ContentContainerActiveRecord;
 use humhub\modules\content\components\ContentContainerModule;
+use yii\helpers\Url;
 
 class Module extends ContentContainerModule
 {
@@ -18,8 +19,15 @@ class Module extends ContentContainerModule
             Space::className(),
         ];
     }
+    
+    public function getConfigUrl()
+    {
+        return Url::to([
+                    '/hhcf/config'
+        ]);
+    }
 
-       public function getContentContainerName(ContentContainerActiveRecord $container)
+    public function getContentContainerName(ContentContainerActiveRecord $container)
     {
         return Yii::t('HhcfModule.Space', 'Custom Fields');
     }
