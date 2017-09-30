@@ -34,4 +34,4 @@ class ConfigController extends \humhub\modules\admin\components\Controller
 
 }
 
-?>
+

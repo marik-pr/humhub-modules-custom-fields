@@ -22,8 +22,13 @@ and open the template in the editor.
     width: 150px;
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
     padding: 20px;
-    background-image: url(../img/plus.png);
+}
+
+.template_add a{
+    text-align: center;
+    color: #708fa0;
 }
 
 .template_box{

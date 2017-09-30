@@ -23,7 +23,7 @@ use humhub\modules\space\modules\manage\widgets\DefaultMenu;
         <hr>
         <div class="template_box">
             <div class="template_select">-</div>
-            <div class="template_add"><a href= "">&nbsp;</a></div>
+            <div class="template_add"><a href=""><?php echo Yii::t('HhcfModule.Space', '<strong>Add template</strong>'); ?></a></div>
         </div>
 
     </div>
