@@ -1,8 +1,11 @@
 <?php
-use yii\jui\DatePicker;
+
+
+\humhub\modules\hhcf\assets\Assets::register($this);
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 use humhub\modules\space\modules\manage\widgets\DefaultMenu;
+
 ?>
 
 <div class="panel panel-default">
@@ -14,20 +17,15 @@ use humhub\modules\space\modules\manage\widgets\DefaultMenu;
 
     <?= DefaultMenu::widget(['space' => $model]); ?>
     <div class="panel-body">
-
-        <?php $form = ActiveForm::begin(['options' => ['id' => 'spaceIndexForm'], 'enableClientValidation' => false]); ?>
-        <?php 
-
-          ?>  
+ 
         <hr>
-        <?php echo Yii::t('HhcfModule.Space', '<strong>Post...</strong>'); ?>
+        <?php echo Yii::t('HhcfModule.Space', '<strong>Select template</strong>'); ?>
         <hr>
+        <div class="template_box">
+            <div class="template_select">-</div>
+            <div class="template_add"><a href= "">&nbsp;</a></div>
+        </div>
 
-        <?php echo Html::submitButton(Yii::t('SpaceModule.views_admin_edit', 'Save'), array('class' => 'btn btn-primary', 'data-ui-loader' => '')); ?>
-
-        <?php echo \humhub\widgets\DataSaved::widget(); ?>
-
-        <?php ActiveForm::end(); ?>
     </div>
 
 </div>

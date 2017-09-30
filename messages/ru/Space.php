@@ -10,4 +10,7 @@ return array (
     'Custom Fields' => 'Дополнительные поля',
     'Adds custom fields to this space' => 'Добавить дополнительные поля в это пространство',
     '<strong>Post...</strong>' => '<strong>Текст...</strong>',
+    '<strong>Select template</strong>' => 'Выберите шаблон',
+    '<strong>Add template</strong>' => 'Добавить шаблон',
+    '<strong>Edit template</strong>' => 'Редактировать шаблон',
 );
