@@ -1,17 +1,17 @@
 <?php
 
 namespace humhub\modules\hhcf;
+
+use Yii;
+use yii\helpers\Url;
+use yii\base\Object
 use humhub\modules\space\models\Space;
 use humhub\modules\user\models\User;
 use humhub\modules\space\modules\manage\widgets;
-use Yii;
-use yii\helpers\Url;
 
-class Events extends \yii\base\Object
+class Events extends Object
 {
 
-    
-    
     public static function onSpaceAdminInit($event)
     {
         if ($event->sender->space !== null && $event->sender->space->isModuleEnabled('hhcf') && $event->sender->space->isMember()) {
