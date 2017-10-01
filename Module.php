@@ -1,16 +1,17 @@
 <?php
 
 namespace humhub\modules\hhcf;
+
 use Yii;
+use yii\helpers\Url;
 use humhub\modules\space\models\Space;
 use humhub\modules\content\components\ContentContainerActiveRecord;
 use humhub\modules\content\components\ContentContainerModule;
-use yii\helpers\Url;
 
 class Module extends ContentContainerModule
 {
 
-/**
+    /**
      * @inheritdoc
      */
     public function getContentContainerTypes()
@@ -23,7 +24,7 @@ class Module extends ContentContainerModule
     public function getConfigUrl()
     {
         return Url::to([
-                    '/hhcf/config'
+            '/hhcf/config'
         ]);
     }
 
