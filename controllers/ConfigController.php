@@ -17,7 +17,8 @@ class ConfigController extends \humhub\modules\admin\components\Controller
      */
     public function actionIndex()
     {
-
+        
+        
         return $this->render('index');
     }
 
