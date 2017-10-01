@@ -4,7 +4,7 @@ namespace humhub\modules\hhcf;
 
 use Yii;
 use yii\helpers\Url;
-use yii\base\Object
+use yii\base\Object;
 use humhub\modules\space\models\Space;
 use humhub\modules\user\models\User;
 use humhub\modules\space\modules\manage\widgets;
