@@ -1,5 +1,6 @@
 <?php
 
+use Yii;
 use humhub\modules\content\widgets\WallEntryLinks;
 use humhub\commands\IntegrityController;
 use humhub\modules\space\widgets\Menu;
