@@ -1,5 +1,6 @@
 <?php
 
+use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 use humhub\modules\space\modules\manage\widgets\DefaultMenu;
@@ -22,7 +23,7 @@ use humhub\modules\space\modules\manage\widgets\DefaultMenu;
         <hr>
         <div class="template_box">
             <div class="template_select">-</div>
-            <div class="template_add"><?= Html::a(Yii::t('HhcfModule.Space', '<strong>Add template</strong>'), Url::RouteTo('/hhcf/edit')) ?></div>
+            <div class="template_add"><?= Html::a(Yii::t('HhcfModule.Space', '<strong>Add template</strong>'), Url::to('/hhcf/edit')) ?></div>
         </div>
 
     </div>

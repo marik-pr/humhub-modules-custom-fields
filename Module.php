@@ -14,6 +14,8 @@ class Module extends ContentContainerModule
     /**
      * @inheritdoc
      */
+    
+    
     public function getContentContainerTypes()
     {
         return [
