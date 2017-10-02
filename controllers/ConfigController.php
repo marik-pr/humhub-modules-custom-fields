@@ -3,13 +3,13 @@
 namespace humhub\modules\hhcf\controllers;
 
 use Yii;
-// use humhub\modules\hhcf\models\ConfigureForm; // Markded out till directory is made!
 use humhub\models\Setting;
+use humhub\modules\admin\components\Controller;;
 
 /**
  * ConfigController handles the configuration requests.
  */
-class ConfigController extends \humhub\modules\admin\components\Controller
+class ConfigController extends Controller
 {
 
     /**

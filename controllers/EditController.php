@@ -3,10 +3,12 @@
 namespace humhub\modules\hhcf\controllers;
 
 use Yii;
-// use humhub\modules\hhcf\models\ConfigureForm; // Markded out till directory is made!
+use yii\data\ActiveDataProvider;
+use humhub\modules\admin\components\Controller;
+use humhub\modules\hhcf\models\CFTemplate;
 use humhub\models\Setting;
 
-class EditController extends \humhub\modules\admin\components\Controller
+class EditController extends Controller
 {
 
     /**
@@ -14,10 +16,9 @@ class EditController extends \humhub\modules\admin\components\Controller
      */
     public function actionIndex()
     {
-
-        return $this->render('index');
+        $model = new CFTemplate();
+        return $this->render('edit');
     }
 
 }
 
-?>

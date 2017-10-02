@@ -4,10 +4,11 @@ namespace humhub\modules\hhcf\controllers;
 
 use Yii;
 use humhub\modules\space\modules\manage\components\Controller;
+use humhub\modules\space\modules\manage\controllers\DefaultController;
 use humhub\modules\space\modules\manage\models\DeleteForm;
 use humhub\modules\space\models\SpacePages;
 
-class SpaceController extends \humhub\modules\space\modules\manage\controllers\DefaultController
+class SpaceController extends DefaultController
 {
     public function actionIndex()
     {
