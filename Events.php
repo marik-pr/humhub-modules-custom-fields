@@ -4,12 +4,12 @@ namespace humhub\modules\hhcf;
 
 use Yii;
 use yii\helpers\Url;
-use yii\base\Object;
+use yii\base\BaseObject;
 use humhub\modules\space\models\Space;
 use humhub\modules\user\models\User;
 use humhub\modules\space\modules\manage\widgets;
 
-class Events extends Object
+class Events extends BaseObject
 {
 
     public static function onSpaceAdminInit($event)
